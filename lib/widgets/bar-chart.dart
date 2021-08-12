@@ -30,7 +30,7 @@ class BarChart extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey, width: 1.0),
-                      color: Color.fromRGBO(220, 220, 220, 1),
+                      color: Color.fromRGBO(225, 225, 225, 1),
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
