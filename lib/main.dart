@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Vaeljund Expenses',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
-        accentColor: Colors.yellow[300],
+        primarySwatch: Colors.green,
+        accentColor: Colors.yellow[500],
         fontFamily: 'Palanquin',
         textTheme: ThemeData.light().textTheme.copyWith(
               headline6: TextStyle(
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
-              button: TextStyle(color: Colors.white),
+              button: TextStyle(color: Colors.grey),
             ),
         appBarTheme: AppBarTheme(
           textTheme: ThemeData.light().textTheme.copyWith(
