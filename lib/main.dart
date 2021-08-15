@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
               headline6: TextStyle(
                 fontFamily: 'Roboto',
                 fontWeight: FontWeight.bold,
-                fontSize: 18,
+                fontSize: 20,
               ),
               button: TextStyle(color: Colors.grey),
             ),
